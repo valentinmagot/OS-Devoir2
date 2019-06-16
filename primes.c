@@ -1,4 +1,4 @@
-// Bibiliothèque pthread
+// Bibliotheques
 #include <pthread.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -27,7 +27,7 @@ void* printPrime(void* num){
 	for(int i = 1; i <= number; i++)
 		if(isPrime(i))
 			printf("%d\n", i);
-	printf("%d\n", number);	
+	// printf("%d\n", number);	
 }
 
 // Main function
